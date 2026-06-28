@@ -1,0 +1,13 @@
+PyQt6
+pydicom
+numpy
+nibabel
+monai
+matplotlib
+SimpleITK
+requests
+tqdm
+pytest
+pytest-cov
+pytest-qt
+hypothesis

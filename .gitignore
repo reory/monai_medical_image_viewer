@@ -1,0 +1,67 @@
+# Python cache / build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# Bytecode cache
+*.cache/
+.cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# OS-specific junk
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Raw tarballs
+data/*.tar
+data/*.zip
+
+# Large extracted datasets
+data/spleen/
+data/sample.nii.gz
+
+# Keep dataset.json but ignore macOS metadata
+data/spleen/Task09_Spleen/dataset.json
+data/spleen/Task09_Spleen/._*
+
+# Ignore all NIfTI volumes except real ones
+*.nii
+*.nii.gz
+!data/spleen/Task09_Spleen/imagesTr/*.nii.gz
+!data/spleen/Task09_Spleen/imagesTs/*.nii.gz
+!data/spleen/Task09_Spleen/labelsTr/*.nii.gz
+
+*.analysis
+*.log
+logs/
+
+# Ignore personal files - keep on local machine
+project_notes.txt
+extract_tar.py
