@@ -65,3 +65,4 @@ logs/
 # Ignore personal files - keep on local machine
 project_notes.txt
 extract_tar.py
+palette.png

@@ -18,8 +18,8 @@ The MONAI Medical Image Viewer is a desktop tool built for developers, students,
 
 ---
 
-## 🎥 Demo
-[![Viewer Demo](assets/demo_thumbnail.png)](demo.mp4)
+## Demo
+![Demo](demo.gif)
 
 ---
 
